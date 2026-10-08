@@ -1,0 +1,19 @@
+{
+  "var2": {
+    "kind": "ridge",
+    "degree": 11,
+    "alpha": 1.5,
+    "l1_ratio": null,
+    "cv_mse": 0.22965009007851434,
+    "best_degree_by_mse": 11,
+    "selection_cv": "5-fold; training data only; minimum mean CV MSE"
+  },
+  "var1": {
+    "kind": "lasso",
+    "degree": 5,
+    "alpha": 0.00707945784384138,
+    "l1_ratio": 1.0,
+    "cv_mse": 0.34055993334037205,
+    "selection_cv": "5-fold repeated 3 times; training data only"
+  }
+}
