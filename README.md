@@ -31,6 +31,5 @@ The numbered scripts contain the analysis, degree-sweep, regularisation-tuning, 
 ## Leakage control
 
 - Test labels are never accessed.
-- Test inputs are **not** used for degree selection, regularisation selection, feature ablation, or model-family choice.
-- The test inputs are loaded only in the final-fit script after the model configuration is fixed, to produce predictions in sample-submission order.
+- Test inputs are not used for degree selection, regularisation selection, feature ablation, or model-family choice. They   are used descriptively in the EDA stage for train/test distribution comparisons and are used for prediction only after the final model configuration has been fixed.
 - Train/test distribution comparisons in the exploratory figure are descriptive only and do not affect model selection.
